@@ -1,0 +1,28 @@
+.offers_subsection{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    width: 50vw;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.offers{
+    height: 50vh;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightOffer img{
+    height: 300px;
+    width: 250px;
+}
+
+.leftOffer{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}

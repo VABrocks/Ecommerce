@@ -1,0 +1,77 @@
+.ProductsDisplayContainer{
+    margin: 50px;
+    display: flex;
+}
+.leftProductDisplayImages {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 35vw;
+    flex: 1;
+}
+.leftProductDisplayImages img{
+    width: 100px;
+    height:70px;
+}
+
+.leftProductDisplayMainImage img{
+    width: 350px;
+    height: 310px;
+}
+.leftProductDisplayImages_SideImages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rightProductDisplay{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.rightProductDisplayNamePrice{   
+    font-size: larger;
+    font-weight: bold;}
+
+.rightProductDisplayPrice{display: flex;
+    gap: 20px;}
+
+.Size{
+    display: flex;
+    gap: 10px;
+    }
+.Size button{
+    width: 35px;
+    height: 30px;
+}
+
+.rightProductDisplayDescription{
+    text-align: left;
+    width: 600px;
+}
+.AddtoCart{
+    display: flex;
+    flex-direction: column;
+}
+.AddtoCart button{
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    background: red;
+}
+.AddtoCart button:active{
+    background: orangered;
+}
+.AddtoCart p{
+    text-align: left;
+}
+.og{
+    text-decoration: line-through;
+}
+/* button:hover{
+    cursor: pointer;
+} */

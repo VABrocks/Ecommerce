@@ -1,0 +1,39 @@
+.ItemContainer{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    margin: 20px ;
+}
+.Popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PopItems{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Popular hr{
+    width: 100px;
+    height: 4px;
+    background-color: black;
+}
+@media (max-width:1024px) {
+    .ItemContainer{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin: 20px ;
+}}
+@media (max-width:800px) {
+    .ItemContainer{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    margin: 10px ;
+}
+}

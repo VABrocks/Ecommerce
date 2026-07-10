@@ -1,0 +1,33 @@
+.CartSubSection{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+.cartTotal{text-align: center;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;}
+.Promocode{
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px;
+        background: #f2f2f2
+}
+.Promocode button{
+    padding: 10px;
+    font-size: small;
+    border: 1px solid black;
+    border-radius: 100px;    background: black;
+    color: #f2f2f2;
+}
+.Promocode input{
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    outline: none;    background: #f2f2f2
+}
+.Promocode input:active{
+    border: none;
+}

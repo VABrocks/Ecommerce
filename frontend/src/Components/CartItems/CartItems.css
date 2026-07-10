@@ -1,0 +1,20 @@
+.prod_img img{
+    height: 100px;
+}
+.prod_img{
+    display: flex;
+    justify-content: center;
+}
+.CartItem_Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.prodNamePrice h2{
+    width: 60vw;
+}
+#cart_cross_icon{
+    cursor: pointer;
+    padding: 10px;
+}

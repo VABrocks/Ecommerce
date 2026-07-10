@@ -1,0 +1,28 @@
+ .ProductsDecription{
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+    margin: 50px;
+    margin-bottom: 0px;
+    border-bottom: none;
+    gap: 10px;
+}
+
+.ProductsDecription p{
+    width: 115px;
+    height: 30px;
+    padding: 5px;
+}
+.rev{
+    border-left: 1px solid black;
+    background: #efeeee;
+} 
+
+ .descri{
+    margin: 50px;
+    height: 100px;
+    margin-top: 0px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 15px;
+  } 

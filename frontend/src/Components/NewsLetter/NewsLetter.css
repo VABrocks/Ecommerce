@@ -1,0 +1,31 @@
+.NewsLetter{
+    width: 60vw;
+    border-radius: 50px;
+    height: 40vh;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    gap:20px;
+}
+.NewsLetter_Button *{
+    border: none;
+    height: 6vh;
+    border-radius: 80px;
+}
+.NewsLetter_Button input{
+    width: 25vw;
+
+}
+.NewsLetter_Button button{
+    width: 100px;
+}
+.NewsLetter_Button{
+    /* display: flex;
+    align-items: center; */
+    border-radius: 80px;
+    justify-content: center;
+    border: 1px solid black;
+    width: fit-content;}

@@ -1,0 +1,15 @@
+.cartContainer{
+    margin-bottom: 40px;
+}
+.cart-subContainer
+ {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Cart-products{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

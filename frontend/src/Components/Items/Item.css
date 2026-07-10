@@ -1,0 +1,46 @@
+/* .Items{
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+
+} */
+.Items:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.Items img{
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+    }
+.old_price{
+    text-decoration: line-through;
+    
+}
+.price{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.section2 h6{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:1240px) {
+    .Items img{
+        width: 220px;
+        height: 220px;
+        border-radius: 20px;
+    }
+  
+}
+@media (max-width:1024px) {
+    .Items img{
+        width: 180px;
+        height: 180px;
+        border-radius: 20px;
+    }
+  
+}

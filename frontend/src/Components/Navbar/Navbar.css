@@ -1,0 +1,89 @@
+*{
+        font-family: cursive;}
+
+.navbar
+ {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 0px 4px 1px;
+    height: 10vh;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.nav-logo{
+    font-family: cursive;
+    font-size: medium;
+} 
+.nav-logo img{
+    width: 4vw;
+    height: 5vh;
+
+} 
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul hr{
+    width: 80%;
+}
+.navbar ul li{
+    font-size: x-large;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-login-cart{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-login-cart button{
+    width: 8vw;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration:none ;
+}
+
+.nav-login-cart button a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.nav-login-cart button:active{
+    background-color: whitesmoke;
+}
+.nav-login-cart img{
+        height: 40px;
+}
+
+.cart_counter{    display: flex;
+    margin-top: -26px;
+    margin-left: -29px;
+    color: white;
+    font-size: small;
+    background-color: red;
+    width: 11px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    padding: 2px;
+    border-radius: 5px;
+}
+@media(max-width:1024){
+    .navbar{
+        width: 1000px;
+    }
+}

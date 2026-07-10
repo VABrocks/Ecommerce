@@ -1,0 +1,38 @@
+.SignUpPage{
+    width: 450px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    /* border: 1px solid black;
+    border-radius: 100px; */
+}
+.SignUpPage button{
+    width: 300px;
+    height: 40px;
+    background-color: red;
+}
+.SignUpContainer{
+    display: flex;
+    align-items: center;
+    background-color: ghostwhite;
+    justify-content: center;
+    gap: 10px;
+    height: 85vh;
+}
+.TermsCondition{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.SignUpPage input[type="text"],[type="number"],[type="email"]{
+    width: 300px;
+    height: 40px;
+}
+.SignUpPage div span{
+    color: red;
+}

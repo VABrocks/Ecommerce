@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(180deg, #00000005, transparent);
+}
+
+
+.footer div ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+}
+
